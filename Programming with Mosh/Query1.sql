@@ -43,12 +43,27 @@
 -- select * from customers 
 -- Where birth_date between '1990-01-01' AND '2000-01-01';
 
-SELECT 
-    *
-FROM
-    customers
-WHERE
-    last_name LIKE '%y';
+-- SELECT * FROM customers
+-- WHERE last_name LIKE '%field';
 
+-- select * FROM customers
+-- where phone IS NOT NULL
 
+-- select * from orders
+-- where shipped_date IS NULL
 
+-- select * From customers 
+-- ORDER BY first_name DESC
+
+-- select first_name, last_name, 10 as points
+-- from customers
+-- order by first_name , last_name
+
+-- select product_id, unit_price * quantity AS totalcost
+-- from order_items
+-- Where order_id = 2 
+-- Order by totalcost desc
+
+-- select * from customers limit 6,3
+
+-- select * from customers limit 6;
