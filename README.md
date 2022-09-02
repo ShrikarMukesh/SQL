@@ -15,4 +15,26 @@ INDEX - Indexes a field providing faster retrieval of records.
 PRIMARY KEY - Uniquely identifies each record in a table.
 FOREIGN KEY - Ensures referential integrity for a record in another table.
 
+Composite Key in SQL:
+Now a composite key is also a primary key, but the difference is that it is made by the combination of more than one column to identify the particular row in the table.
+CREATE TABLE student(
+   rollNumber INT, 
+   name VARCHAR(30), class VARCHAR(30), 
+   section VARCHAR(1), mobile VARCHAR(10),
+PRIMARY KEY (rollNumber, mobile));
+
 ![new](https://user-images.githubusercontent.com/46884233/186828268-39d83e0d-2ee1-4760-9d60-4122fb8b3249.png)
+
+SQL is a Hybride Language, it's basically 4 types of languages in one.
+ DQL: Data Query Lang
+   1) Used to query the database information.
+   2)Get Information that is already stored there.
+   
+ DDL: Data Defination language
+   1)Used for defining db schemas.
+   
+ DCL: Data control language
+   1) Used for controlling access to the data in db.
+   2) User and permissions management.
+ DML: Data Manipulation lang
+   1)Used for inserting , updating and deleting data
