@@ -38,3 +38,5 @@ SQL is a Hybride Language, it's basically 4 types of languages in one.
    2) User and permissions management.
  DML: Data Manipulation lang
    1)Used for inserting , updating and deleting data
+   
+
