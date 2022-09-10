@@ -1,0 +1,1 @@
+select username, users.created_at  from users;

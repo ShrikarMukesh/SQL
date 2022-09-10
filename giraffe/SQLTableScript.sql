@@ -1,3 +1,4 @@
+use giraffe;
 CREATE TABLE employee (
   emp_id INT PRIMARY KEY,
   first_name VARCHAR(40),
@@ -17,15 +18,9 @@ CREATE TABLE branch (
   FOREIGN KEY(mgr_id) REFERENCES employee(emp_id) ON DELETE SET NULL
 );
 
-ALTER TABLE employee
-ADD FOREIGN KEY(branch_id)
-REFERENCES branch(branch_id)
-ON DELETE SET NULL;
+ALTER TABLE employee ADD FOREIGN KEY(branch_id) REFERENCES branch(branch_id) ON DELETE SET NULL;
 
-ALTER TABLE employee
-ADD FOREIGN KEY(super_id)
-REFERENCES employee(emp_id)
-ON DELETE SET NULL;
+ALTER TABLE employee ADD FOREIGN KEY(super_id) REFERENCES employee(emp_id) ON DELETE SET NULL;
 
 CREATE TABLE client (
   client_id INT PRIMARY KEY,
