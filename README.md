@@ -39,4 +39,12 @@ SQL is a Hybride Language, it's basically 4 types of languages in one.
  DML: Data Manipulation lang
    1)Used for inserting , updating and deleting data
    
+![2](https://user-images.githubusercontent.com/46884233/189513812-cde0bbac-768d-4683-966c-f377af567559.png)
 
+Different Types of SQL JOINs
+   Here are the different types of the JOINs in SQL:
+
+   (INNER) JOIN: Returns records that have matching values in both tables.
+   LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table.
+   RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table.
+   FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table.
