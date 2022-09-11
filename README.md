@@ -27,24 +27,24 @@ PRIMARY KEY (rollNumber, mobile));
 
 SQL is a Hybride Language, it's basically 4 types of languages in one.
  DQL: Data Query Lang
-   1) Used to query the database information.
-   2)Get Information that is already stored there.
+   1) Used to query the database information.<br />
+   2)Get Information that is already stored there.<br />
    
  DDL: Data Defination language
-   1)Used for defining db schemas.
+   1)Used for defining db schemas.<br />
    
  DCL: Data control language
-   1) Used for controlling access to the data in db.
-   2) User and permissions management.
- DML: Data Manipulation lang
-   1)Used for inserting , updating and deleting data
+   1) Used for controlling access to the data in db.<br />
+   2) User and permissions management.<br />
+ DML: Data Manipulation lang <br />
+   1)Used for inserting , updating and deleting data <br />
    
 ![2](https://user-images.githubusercontent.com/46884233/189513812-cde0bbac-768d-4683-966c-f377af567559.png)
 
 Different Types of SQL JOINs
    Here are the different types of the JOINs in SQL:
 
-   (INNER) JOIN: Returns records that have matching values in both tables.
-   LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table.
-   RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table.
-   FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table.
+   (INNER) JOIN: Returns records that have matching values in both tables <br />
+   LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table <br />
+   RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table <br />
+   FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table <br />
