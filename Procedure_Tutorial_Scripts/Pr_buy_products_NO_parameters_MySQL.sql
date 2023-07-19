@@ -1,12 +1,5 @@
 use techTFQ;
-
 /* CREATING THE TABLES */
-select * from products;
-select * from sales;
-
-drop table sales;
-drop table products;
-
 create table products
 (
 	product_code			varchar(20) primary key,
@@ -15,7 +8,6 @@ create table products
 	quantity_remaining		int,
 	quantity_sold			int
 );
-
 create table sales
 (
 	order_id			int auto_increment primary key,
@@ -35,6 +27,8 @@ insert into sales (order_date,product_code,quantity_ordered,sale_price)
 insert into sales (order_date,product_code,quantity_ordered,sale_price)
 	values (str_to_date('05-02-2022','%d-%m-%Y'), 'P1', 45, 540000);
 
+select * from products;
+select * from sales;
 
 /* CREATING THE PROCEDURE */
 drop procedure if exists pr_buy_products;
@@ -61,4 +55,4 @@ begin
     select 'Product sold!';
 end$$
 
-call 
+call pr_buy_products();

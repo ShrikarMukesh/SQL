@@ -1,0 +1,68 @@
+
+1. Inner Join: Retrieve all the employees along with their corresponding managers from the Employee and Manager tables.
+ Question: "Which employees are managed by whom?"
+ 
+ SELECT Employee.emp_name, Manager.manager_name
+ FROM Employee
+ INNER JOIN Manager ON Employee.manager_id = Manager.manager_id;
+
+
+2. Inner Join with Alias: Retrieve all the employees along with their corresponding managers from the Employee and Manager tables, using table aliases.
+
+3. Inner Join with Filtering: Retrieve all the employees whose salary is higher than their respective manager's salary.
+
+4. Left Join: Retrieve all the employees and their corresponding managers, including employees without a manager, from the Employee and Manager tables.
+
+5. Left Join with Alias: Retrieve all the employees and their corresponding managers, including employees without a manager, from the Employee and Manager tables, using table aliases.
+
+6. Left Join with Filtering: Retrieve all the employees who do not have a manager.
+
+7. Right Join: Retrieve all the managers and their corresponding employees from the Employee and Manager tables, including managers without any employees.
+
+8. Right Join with Alias: Retrieve all the managers and their corresponding employees from the Employee and Manager tables, including managers without any employees, using table aliases.
+
+9. Right Join with Filtering: Retrieve all the employees who do not have any corresponding managers.
+
+10. Full Outer Join: Retrieve all the employees and managers from the Employee and Manager tables, including those without matches in the other table.
+
+11. Full Outer Join with Alias: Retrieve all the employees and managers from the Employee and Manager tables, including those without matches in the other table, using table aliases.
+
+12. Full Outer Join with Filtering: Retrieve all the employees and managers who either have no corresponding match in the other table.
+
+13. Cross Join: Retrieve all possible combinations of employees and managers from the Employee and Manager tables.
+
+14. Cross Join with Alias: Retrieve all possible combinations of employees and managers from the Employee and Manager tables, using table aliases.
+
+15. Self Join: Retrieve the employees along with their respective managers by joining the Employee table with itself.
+
+16. Natural Join: Retrieve all the rows from the Employee and Manager tables where the columns with the same name have equal values.
+
+17. Natural Left Join: Retrieve all the rows from the Employee table and matching rows from the Manager table where the columns with the same name have equal values.
+
+18. Natural Right Join: Retrieve all the rows from the Manager table and matching rows from the Employee table where the columns with the same name have equal values.
+
+19. Natural Full Outer Join: Retrieve all the rows from the Employee and Manager tables where the columns with the same name have equal values, including unmatched rows from both tables.
+
+20. Self Left Join: Retrieve the employees along with their respective managers by performing a left join on the Employee table with itself.
+
+21. Self Right Join: Retrieve the employees along with their respective managers by performing a right join on the Employee table with itself.
+
+22. Self Full Outer Join: Retrieve the employees along with their respective managers by performing a full outer join on the Employee table with itself.
+
+23. Cross Apply: Retrieve all the employees along with their corresponding managers by applying a subquery join using the CROSS APPLY operator.
+
+24. Outer Apply: Retrieve all the employees along with their corresponding managers by applying a subquery join using the OUTER APPLY operator.
+
+25. Self Apply: Retrieve the employees along with their respective managers by applying a subquery join on the Employee table with itself using the CROSS APPLY operator.
+
+26. Union: Retrieve a combined list of employee names and manager names without any duplicates from the Employee and Manager tables.
+
+27. Union All: Retrieve a combined list of employee names and manager names, including duplicates, from the Employee and Manager tables.
+
+28. Intersect: Retrieve the common employee names between the Employee and Manager tables.
+
+29. Except: Retrieve the employee names from the Employee table that are not present in the Manager table.
+
+30. Subquery Join: Retrieve all the employees from the Employee table whose manager has a salary higher than 70,000.
+
+These problem descriptions provide an understanding of the purpose and expected results of each query.
